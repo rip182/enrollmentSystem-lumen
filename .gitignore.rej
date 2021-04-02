@@ -1,0 +1,7 @@
+diff a/.gitignore b/.gitignore	(rejected hunks)
+@@ -4,3 +4,4 @@
+ Homestead.yaml
+ .env
+ .phpunit.result.cache
++.vargrant
+\ No newline at end of file
