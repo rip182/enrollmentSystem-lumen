@@ -20,7 +20,7 @@ $router->get('/', function () use ($router) {
 $router->group(['prefix' => 'v1'], function($router) {
     $router->group(['prefix' => 'user'], function($router) {
         $router->get('/', [
-           'uses' => 'UserControler@store'
+           'admin' => 'UserControler@store'
         ]);
     });
 });
