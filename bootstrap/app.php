@@ -97,7 +97,6 @@ $app->register(App\Providers\AuthServiceProvider::class);
 
 /* Installed Packages */
 $app->register(Flipbox\LumenGenerator\LumenGeneratorServiceProvider::class);
-
 /*
 |--------------------------------------------------------------------------
 | Load The Application Routes
